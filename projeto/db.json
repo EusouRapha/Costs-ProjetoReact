@@ -1,17 +1,6 @@
 {
   "projects": [
     {
-      "name": "projeto teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
       "name": "teste2",
       "budget": "4555",
       "category": {
@@ -23,19 +12,8 @@
       "id": 2
     },
     {
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "name": "dsada",
-      "budget": "343434",
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Novo Projeto",
-      "budget": "20000",
+      "name": "Eco-S",
+      "budget": "55000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
