@@ -12,15 +12,15 @@
       "id": 2
     },
     {
-      "name": "Eco-S",
-      "budget": "55000",
+      "name": "Testando",
+      "budget": "5000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
-      "id": 4
+      "id": 3
     }
   ],
   "categories": [
