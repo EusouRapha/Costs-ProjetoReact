@@ -7,8 +7,39 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 130,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "100",
+          "description": "faz isso aq",
+          "id": "1f08aa28-f356-4127-b20e-2e9c75ee2a89"
+        },
+        {
+          "name": "Testando atualizado 2",
+          "cost": "30",
+          "description": "teste",
+          "id": "2e9588bc-1572-4b70-8ecc-adb1d234b365"
+        },
+        {
+          "name": "Contratar dev",
+          "cost": "0",
+          "description": "envio de emails",
+          "id": "2391e341-5af6-4b5e-a45d-c7abf3243c1a"
+        },
+        {
+          "name": "sei la po",
+          "cost": "0",
+          "description": "aaa",
+          "id": "51d0aa0e-d268-4b74-b5ff-f2b2b5a416e5"
+        },
+        {
+          "name": "sei la po2",
+          "cost": "0",
+          "description": "aaa",
+          "id": "d3fb1745-834e-439d-9956-eee7fadd9765"
+        }
+      ],
       "id": 3
     },
     {
@@ -29,8 +60,21 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 444,
+      "services": [
+        {
+          "name": "Abril Verde",
+          "cost": "222",
+          "description": "aaaa",
+          "id": "654696f0-8056-4d7d-afb8-3d544dd35950"
+        },
+        {
+          "name": "Abril Verde",
+          "cost": "222",
+          "description": "aaaa",
+          "id": "654696f0-8056-4d7d-afb8-3d544dd35950"
+        }
+      ],
       "id": 5
     }
   ],
