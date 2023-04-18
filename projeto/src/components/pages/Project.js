@@ -36,6 +36,35 @@ function Project() {
     }, 2000);
   }, [id]);
 
+  function removeService(id, cost){
+      const servicesUpdate = project.services.filter(
+        (service) => service.id !== id
+      )
+
+      const projectUpdated = project
+
+      projectUpdated.services = servicesUpdate
+      projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+
+      fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+        method: "PATCH", //ATUALIZA APENAS DADOS MANDADOS
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(projectUpdated),
+      })
+        .then((resp) => resp.json())
+        .then((data) => {
+          setProject(projectUpdated)
+          setServices(servicesUpdate)
+          setMessage('Serviço Removido com sucesso')
+        })
+        .catch((err) => console.log(err));
+
+
+
+  }
+
   function toggleProjectForm() {
     setshowProjectForm(!showProjectForm);
   }
@@ -106,9 +135,7 @@ function Project() {
       .catch((err) => console.log(err));
   }
 
-  function removeService(){
 
-  }
 
   return (
     <>
